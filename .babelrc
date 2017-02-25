@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "latest",
+    "stage-0",
+    "react",
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      },
+      "modules": false,
+      "loose": true
+    }]
+  ],
+  "plugins": [
+    "transform-runtime"
+  ]
+}

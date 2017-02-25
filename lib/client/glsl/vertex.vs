@@ -7,6 +7,7 @@ uniform float uAngle;
 
 void main(void) {
   gl_PointSize = uPointSize;
+
   gl_Position = vec4(
     cos(uAngle) * 0.8 + a_position.x,
     sin(uAngle) * 0.8 + a_position.y,

@@ -31,10 +31,6 @@ export default {
     ],
   },
   plugins: [
-    new HotModuleReplacementPlugin(),
     new NoEmitOnErrorsPlugin(),
-    new LoaderOptionsPlugin({
-
-    }),
   ],
 };
